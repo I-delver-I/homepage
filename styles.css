@@ -261,3 +261,8 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.personal-interests__header {
+    color: dodgerblue;
+    text-align: center;
+}
