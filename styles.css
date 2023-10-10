@@ -44,7 +44,7 @@ body {
 
 .resume__block {
     border-bottom: 3px solid var(--border-color);
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     margin-bottom: 15px;
 }
 
@@ -88,7 +88,7 @@ body {
 .contact-info__block {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .contact-info__block--center {
@@ -133,7 +133,6 @@ body {
 
 .intro {
     display: flex;
-    justify-content: start;
 }
 
 .intro__icon-wrapper {
@@ -160,7 +159,6 @@ body {
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
-    margin-bottom: 15px;
 }
 
 .skills__text {
@@ -265,4 +263,47 @@ body {
 .personal-interests__header {
     color: dodgerblue;
     text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-group.high {
+    background-color: green;
+}
+
+.skill-group.average {
+    background-color: orange;
+}
+
+.skill-group.low {
+    background-color: red;
+}
+
+.skill-group {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    /*width: calc(33.33% - 20px);*/
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.skill {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.proficiency {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
 }
